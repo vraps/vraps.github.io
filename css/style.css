@@ -780,6 +780,15 @@ header nav a:visited {
 	color: #999;
 }
 
+/* 5.3 Team */
+.team-col {
+    list-style-type: none;
+    
+}
+.team-col li {
+  text-align: center;
+  margin: 20px 0;
+}
 
 
 /**
