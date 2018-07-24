@@ -790,6 +790,17 @@ header nav a:visited {
   margin: 20px 0;
 }
 
+.member-pic {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+.member-name {
+    padding-bottom: 1em;
+}
+
 
 /**
  * 6.0 Footer
