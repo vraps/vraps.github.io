@@ -801,6 +801,66 @@ header nav a:visited {
     padding-bottom: 1em;
 }
 
+/* 5.4 About */
+@media (max-width: 766px)
+#about-top {
+    background-attachment: scroll;
+}
+
+#about-top {
+    position: relative;
+    text-align: center;
+    height: 450px;
+    background-size: cover;
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+}
+
+#about-top h1 {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 80px;
+    line-height: 200px;
+}
+
+#about-top i {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+#about-bottom {
+    position: relative;
+    text-align: center;
+}
+
+#about-bottom h2 {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#about-bottom a {
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 50px;
+    color: white;
+}
 
 /**
  * 6.0 Footer
