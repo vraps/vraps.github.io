@@ -41,6 +41,9 @@
 		</div>
 	</header>
 	<main id="contact">
+		<div id="contact-hero">
+			<h1>Contact</h1>
+		</div>
 		<div class="grid">
 			<div id="contact-left" class="col-1-2">
 				<ul id="social-media-links">
@@ -57,17 +60,18 @@
 			<div class="col-1-2">
 				<form id="contact-form" action="https://formspree.io/vrapsrawr@gmail.com"
       				method="POST">
+      				<input type="text" name="_gotcha" style="display:none" />
 					<div class="contact-form-element">
 						<h4>Name</h4>
 						<input type="text" name="name">
 					</div>
 					<div class="contact-form-element">
 						<h4>Email</h4>
-						<input type="email" name="_replyto">
+						<input type="email" name="email">
 					</div>
 					<div class="contact-form-element">
 						<h4>Message</h4>
-						<textarea></textarea>
+						<textarea name="message"></textarea>
 					</div>
 					<div class="contact-form-element">
 						<input type="submit" value="Send">

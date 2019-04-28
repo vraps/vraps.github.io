@@ -591,46 +591,56 @@ table {
  */
 
 @font-face {
-    font-family: "Heavitas";
-    src: url('fonts/Heavitas.eot'); /* IE9 Compat Modes */
-    src: url("fonts/Heavitas.eot?#iefix") format("eot"),
-        url("fonts/Heavitas.woff") format("woff"),
-        url("fonts/Heavitas.ttf") format("truetype"),
-        url("fonts/Heavitas.svg#Heavitas") format("svg");
+    font-family: "Apex New";
+    src: url('fonts/Apex New Light.eot'); /* IE9 Compat Modes */
+    src: url("fonts/Apex New Light.eot?#iefix") format("eot"),
+        url("fonts/Apex New Light.woff") format("woff"),
+        url("fonts/Apex New Light.ttf") format("truetype"),
+        url("fonts/Apex New Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Gotham";
-    src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
-    src: url("fonts/Gotham-Bold.eot?#iefix") format("eot"),
-        url("fonts/Gotham-Bold.woff") format("woff"),
-        url("fonts/Gotham-Bold.ttf") format("truetype"),
-        url("fonts/Gotham-Bold.svg#Heavitas") format("svg");
+    font-family: "Apex New";
+    src: url('fonts/Apex New Medium.eot'); /* IE9 Compat Modes */
+    src: url("fonts/Apex New Medium.eot?#iefix") format("eot"),
+        url("fonts/Apex New Medium.woff") format("woff"),
+        url("fonts/Apex New Medium.ttf") format("truetype"),
+        url("fonts/Apex New Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RenaultBQ";
+    src: url('fonts/RenaultBQ-Light.eot'); /* IE9 Compat Modes */
+    src: url("fonts/RenaultBQ-Light.eot?#iefix") format("eot"),
+        url("fonts/RenaultBQ-Light.woff") format("woff"),
+        url("fonts/RenaultBQ-Light.ttf") format("truetype"),
+        url("fonts/RenaultBQ-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
 }
 
 h1, h2 {
-    font-family: 'Heavitas', sans-serif;
-    font-weight: 400;
+    font-family: 'RenaultBQ', sans-serif;
+    font-weight: 300;
     color: #fff;
 }
-h3 {
-    font-family: 'Gotham', sans-serif;
-    font-weight: 400;
-    color: #fff;
-}
-h4 {
-    font-family: 'Heavitas', sans-serif;
-    font-weight: 400;
+h3, h4, li, a, button, input {
+    font-family: 'Apex New', sans-serif;
+    font-weight: 300;
     color: #fff;
 }
 h5, h6 {
-    font-family: 'Heavitas', sans-serif;
-    font-weight: 700;
+    font-family: 'Apex New', sans-serif;
+    font-weight: 500;
     color: #fff;
 }
 p {
-    font-family: 'Gotham', serif;
-    font-weight: 700;
+    font-family: 'Apex New', serif;
+    font-weight: 300;
     color: #fff;
 }
 
@@ -745,6 +755,9 @@ header nav a:visited {
 }
 
 /* 5.2 Contact */
+#contact-hero {
+    
+}
 #contact-left {
 	text-align: right;
 	padding-right: 50px;
