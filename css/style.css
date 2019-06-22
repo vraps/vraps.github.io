@@ -875,6 +875,27 @@ header nav a:visited {
     color: white;
 }
 
+#mix {
+    text-align: center;
+}
+.cut {
+    padding: 20px 0;
+}
+#mix .cut-art {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+}
+.cut audio {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /**
  * 6.0 Footer
  */
